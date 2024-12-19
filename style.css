@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#one{
+    padding-top: 10px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    height: 70px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    background-color: #eed6d3;
+}
+#two{
+    height:600px;
+    padding-top: 50px;
+    background-color: #e8b4b8;
+}
+
+#two input{
+    height: 40px;
+    width: 400px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    margin: 40px;
+    margin-left: 100px;
+    border-radius:10px;
+    padding-left: 20px;
+}
+#two input:hover{
+    box-shadow: 2px 2px 8px rgb(39, 37, 37);
+    height: 42px;
+    width: 420px;
+    font-size: 17px;
+}
+
+#three{
+    border-radius: 5px;
+    height: 35px;
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #a49393;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    right: 90px;
+    top: 300px;
+}
+#three:hover{
+        box-shadow: 2px 2px 8px black;
+}
+#four{
+    display: inline;
+    position: absolute;
+    right: 130px;
+    top: 370px;
+    
+}
+#five{
+    background-color: #a49393;
+    margin-top: 40px;
+    padding: 4px;
+    text-align: center;
+}

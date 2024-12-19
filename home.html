@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1 id="one">Diabetes Detection</h1>
+    <form method="POST" action="/predict">
+
+    <div id="two">
+        <input type="number" placeholder="enter Pregnancies" name="a">
+        <input type="number" placeholder="enter Glucose" name="b">
+        <input type="number" placeholder="enter BloodPressure" name="c">
+        <input type="number" placeholder="enter SkinThickness" name="d">
+        <input type="number" placeholder="enter Insulin" name="e">
+        <input type="number" placeholder="enter BMI" name="f">
+        <input type="number" placeholder="enter DiabetesPedigreeFunction" name="g">
+        <input type="number" placeholder="enter Age" name="h">
+    </div>
+
+    <input type="submit" value="Predict Diabetes" id="three">
+
+    <br>
+    <br>
+
+    </form>
+    						
+    <div id="four">
+        <h4>OUTCOME :<b>{{p}}</b></h4>
+        <table border="" width="120px" height="50px" id="five">
+            <caption>OUTCOME</caption>
+            <tr>
+                <td>1</td>
+                <td>YES</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>NO</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
